@@ -61,12 +61,9 @@ console.log(booleanIsloggedIn) // true
 
 
 let  somwnumber= 33
-let 
 
-convertToString = String(somwnumber)
+
+ const convertToString = String(somwnumber)
 console.log(typeof convertToString) // string
 console.log(convertToString) // "33"
-
-
-
 
