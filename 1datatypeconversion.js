@@ -47,6 +47,15 @@ let booleanIsloggedIn = Boolean(isloggedIn)
 console.log(booleanIsloggedIn) // true 
 
 
+let  somwnumber= 33
+
+
+ const convertToString = String(somwnumber)
+console.log(typeof convertToString) // string
+console.log(convertToString) // "33"
+
+
+
 
 */
 
@@ -59,11 +68,11 @@ console.log(booleanIsloggedIn) // true
 // "vishhh" => true
 
 
+// *************************************************************************
 
-let  somwnumber= 33
 
 
- const convertToString = String(somwnumber)
-console.log(typeof convertToString) // string
-console.log(convertToString) // "33"
+let value = 33 
+let negvalue = -value
+console.log(negvalue)
 
