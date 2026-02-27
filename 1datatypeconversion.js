@@ -1,4 +1,4 @@
-/*let score = "33 "
+ let score = "33 "
 
 console.log(typeof score) // string
 
@@ -25,6 +25,29 @@ let valueInNumber = Number(score)
 console.log (typeof valueInNumber) // number
 console.log(valueInNumber) // 0 
 
+
+let isloggedIn = "1" 
+
+let booleanIsloggedIn = Boolean(isloggedIn)
+console.log(booleanIsloggedIn) // true
+
+
+
+
+let isloggedIn = ""
+
+let booleanIsloggedIn = Boolean(isloggedIn)
+console.log(booleanIsloggedIn) // false 
+
+
+
+let isloggedIn = "vishhh"
+
+let booleanIsloggedIn = Boolean(isloggedIn)
+console.log(booleanIsloggedIn) // true 
+
+
+
 */
 
 // " 33 "  => 33
@@ -32,12 +55,9 @@ console.log(valueInNumber) // 0
 // " null" => 0 
 // true => 1
 // false => 0
+// "" => false
 
 
-let isloggedIn = "1"
-
-let booleanIsloggedIn = Boolean(isloggedIn)
-console.log(booleanIsloggedIn) // true
 
 
 
