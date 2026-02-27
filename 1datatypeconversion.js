@@ -1,4 +1,4 @@
- let score = "33 "
+/*let score = "33 "
 
 console.log(typeof score) // string
 
@@ -56,9 +56,16 @@ console.log(booleanIsloggedIn) // true
 // true => 1
 // false => 0
 // "" => false
+// "vishhh" => true
 
 
 
+let  somwnumber= 33
+let 
+
+convertToString = String(somwnumber)
+console.log(typeof convertToString) // string
+console.log(convertToString) // "33"
 
 
 
