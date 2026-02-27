@@ -74,5 +74,22 @@ console.log(convertToString) // "33"
 
 let value = 33 
 let negvalue = -value
-console.log(negvalue)
+console.log(negvalue)// -33
+
+//console.log(2+2)
+//console.log(3-4)
+//console.log(9*5)
+//console.log(25/5)
+//console.log(2**3)
+//console.log(2%5)
+
+let str1 = " shsg ";
+let str2 = "heloo"
+ 
+let str3 = str1 +str2
+// console.log( str3)
+
+console.log( "1" +2)
+console.log( "1" + "2")
+console.log( 1+ 2  + "2")
 
