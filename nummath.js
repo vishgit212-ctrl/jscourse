@@ -27,8 +27,9 @@ const hundred= 100000000000
 // console.log(Math.max(4,5,6,7,8,54,1))
 
 
-console.log(Math.random())//  values always come from between 0 or 1 
+ console.log(Math.random())//  values always come from between 0 or 1 
 
+console.log(Math.random()*10+1)
 
 
 
