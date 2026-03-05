@@ -25,7 +25,20 @@ const myarray = [1, 2, 3, 4, 5 ] ;
 myarray.unshift(0)
 myarray.unshift(9)
 
+// console.log(myarray)
+
+// console.log(myarray.includes(9))// include check karta ha ki array ma 9 ha ki nahi agar hua to true otherwise no 
+// console.log(myarray.indexOf(9))// it return place value where 9 is return
+
+const newarr = myarray.join()
+
 console.log(myarray)
+console.log(newarr)
+
+console.log(typeof newarr)// join karne sa array string ma convert ho jata ha 
+
+
+
 
 
 
