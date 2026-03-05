@@ -16,7 +16,16 @@ const myarray = [1, 2, 3, 4, 5 ] ;
 // array methods
 
   myarray.push(6)// it add the value 
+ myarray.push(8)
+  myarray.pop()
+
+
+
+
+myarray.unshift(0)
+myarray.unshift(9)
 
 console.log(myarray)
+
 
 
