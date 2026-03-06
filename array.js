@@ -32,13 +32,23 @@ myarray.unshift(9)
 
 const newarr = myarray.join()
 
-console.log(myarray)
-console.log(newarr)
+// console.log(myarray)
+// console.log(newarr)
 
-console.log(typeof newarr)// join karne sa array string ma convert ho jata ha 
+// console.log(typeof newarr)// join karne sa array string ma convert ho jata ha 
 
+// slice , splice
 
+let myar =[ 3,4,5,6,8]
+console.log("A" ,myarray )
 
+const my1 = myar.slice(1,3)// slice original array ko chnage nahi karta ha 
+console.log("b" ,myarray )
+console.log(my1)
+
+const my2 = myar.splice(1,3)
+console.log(my2)
+console.log(myar)
 
 
 
