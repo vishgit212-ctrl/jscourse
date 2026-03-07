@@ -85,9 +85,18 @@ const course  = {
 
 const {courseinstructor } = course // this is called de-structure of object and we can use this variable in our code
 
-console.log(courseinstructor)
+// console.log(courseinstructor)
 
 
+// api  concept 
+
+// {
+
+//     "name" : "vishh",
+//     "email ": "hbsajdjad"
+//     " price" : 9999
+
+// }
 
 
 
