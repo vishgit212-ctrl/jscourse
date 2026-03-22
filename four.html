@@ -42,6 +42,24 @@ function addoptimumlanguage (language){
 
 addoptimumlanguage('golang')
 
+// edit 
+
+    const secondlanuage = document.querySelector( " li:nth-child(2)")
+    // secondlanuage.innerHTML =  " mojo " // this approach is not good because it will remove all the child node of the secondlanuage element and add a new text node with the value of mojo
+    const newli =  document.createElement("li") // isse hum ek li element create karenge
+    newli.textContent = " mojo " // isse humne newli element ke andar text node add kar diya
+    secondlanuage.replaceWith(newli) // isse humne secondlanuage element ko newli element se replace kar diya
+ 
+    // edit   in html  
+
+    const firstlanguage = document.querySelector("li:first-child") // isse hume first child element milega
+    firstlanguage.outerHTML = ' <li> typescript </li> ' // isse humne firstlanguage element ke outer html ko change kar diya
+
+
+     // remove element in html
+
+     const lastlanguage = document.querySelector("li:last-child") // isse hume last child element milega
+        lastlanguage.remove() // isse humne lastlanguage element ko remove kar diya 
 
 </script>
 
