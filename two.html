@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom  with chai or code </title>
+</head>
+<body style = "background-color: black; color: white;">
+
+    <div class = "parent">
+        
+        <div  class = "day ">Monday  </div>
+        <div  class = "day ">Tuesday </div>
+        <div  class = "day ">Wednesday </div>
+        <div  class = "day ">Thursday  </div>
+
+
+
+
+    </div>
+
+    
+</body>
+<script>
+
+    const parent =  document.querySelector(".parent")
+    console.log(parent)
+    // console.log(parent.children) // jab hi hum parent . children karenge to hume ek html collection milega jisme humare sare child element honge
+    // console.log(parent.children[0]) // isse hume first child element milega
+
+    // for (let i = 0; i < parent.children.length; i++){
+    //     console.log(parent.children[i].innerHTML); // isse hume har ek child element ka inner html milega   
+    // }
+     parent.children[1].style.color = "red" // isse hume second child element ka color red ho jayega
+    // console.log(parent.firstElementChild) // isse hume first child element milega
+    // console.log(parent.lastElementChild) // isse hume last child element milega
+    const dayone = document.querySelector(".day") // isse hume sare element milenge jisme class day hai
+ console.log(dayone)
+//  console.log( dayone.parentElement) // isse hume parent element milega
+// console.log( dayone.nextElementSibling) // isse hume next sibling element milega
+
+    console.log("node" , parent.childNodes) // isse hume ek node list milega jisme humare sare child node honge
+    
+
+
+
+</script>
+</html>

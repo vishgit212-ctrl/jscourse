@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> chai or code </title>
+</head>
+<body style = "background-color: black; color: white;" >
+
+ <ul class = " lanuage">
+    <li>javascript</li>
+    
+</ul>
+</body>
+
+<script > 
+
+ function addlanuage (langName){
+    const li = document.createElement("li") // isse hum ek li element create karenge
+    li.innerHTML = ` ${langname} ` // isse humne li element ke andar text node add kar diya
+    document.querySelector('.lanuage').appendChild(li) // isse humne li element ko ul ke andar add kar diya
+
+
+     
+
+ }
+//   addlanuage("python") // isse humne addlanuage function ko call kar diya aur usme python pass kar diya
+//  addlanuage("java") // isse humne addlanuage function ko call kar diya aur usme java pass kar diya
+//  addlanuage("c++") // isse humne addlanuage function ko call kar diya aur usme c++ pass kar diya
+
+//-----------------------------------------------------
+// optimum coding innreal world 
+
+
+function addoptimumlanguage (language){
+    const li = document.createElement("li") // isse hum ek li element create karenge
+    li.appendChild(document.createTextNode(language)) // isse humne li element ke andar text node add kar diya
+    document.querySelector('.language').appendChild(li) // isse humne li element ko ul ke andar add kar diya
+
+    
+}
+
+addoptimumlanguage('golang')
+
+
+</script>
+
+
+
+</html>
